@@ -36,13 +36,15 @@ Perform a weather check on each of the cities using a series of successive API c
 Include a print log of each city as it's being processed with the city number and city name.
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
-## Part I Obsered Trends:
+## Part I Observed Trends:
 
--There is a correlation between latitude and temperature. In this data set, analyzed in May, you can see that the the Northern Hemisphere has more data points, which is expected since the northern hemisphere also contains greater land-mass than the Southern hemisphere.
+-There is a strong correlation between latitude and temperature. In this data set, analyzed in May, you can see that most of the "hot spots" are located between the Tropic of Cancer (latitude 23.5° N) and the Tropic of Capricorn (latitude 23.5° S) with the Eqautor directly in the middle at 0°. Since it is a transitory period (the NH is approaching summer and the SH is approaching winter) there are also outliers. 
 
--There appears to be no correlation between latitude and cloudiness, and only weak correlation between latitude and wind speed. There are higher wind speeds observed in the southern hemisphere.
+-There appears to be no correlation between latitude and humidity. Both the NH and SH have a large variance of percentages from around 10 to 100.
 
--The correlation between latitude and humidity is also not pronounced. The humidity is higher in the northern hemisphere, which is to be expected as it is Summer in the northern hemisphere.
+-There appears to be no correlation between latitude and wind speed. Both the NH and SH have a large variance of speeds from around 10 to 100.
+
+-The correlation between latitude and cloudiness is not pronounced, however, a large portion of the data points are gathered at both 0 and 100.
 
 
 
