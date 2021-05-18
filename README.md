@@ -36,10 +36,24 @@ Perform a weather check on each of the cities using a series of successive API c
 Include a print log of each city as it's being processed with the city number and city name.
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
+## Part I Obsered Trends:
+
+-There is a correlation between latitude and temperature. In this data set, analyzed in May, you can see that the the Northern Hemisphere has more data points, which is expected since the northern hemisphere also contains greater land-mass than the Southern hemisphere.
+
+-There appears to be no correlation between latitude and cloudiness, and only weak correlation between latitude and wind speed. There are higher wind speeds observed in the southern hemisphere.
+
+-The correlation between latitude and humidity is also not pronounced. The humidity is higher in the northern hemisphere, which is to be expected as it is Summer in the northern hemisphere.
+
+
+
 ## Part II - VacationPy
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
 Create a heat map that displays the humidity for every city from Part I.
+
+![heatmap](https://user-images.githubusercontent.com/75280556/118706406-52d5be00-b7e7-11eb-8702-bc7a8c7296e7.png)
+
+![heatmapsatellite](https://user-images.githubusercontent.com/75280556/118706375-4c474680-b7e7-11eb-8a99-d4e31e84e434.png)
 
 Narrow down the DataFrame to find your ideal weather condition. For example:
 
@@ -56,3 +70,10 @@ Note: Feel free to adjust to your specifications but be sure to limit the number
 Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 
 Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+
+![hotelmap](https://user-images.githubusercontent.com/75280556/118706400-51a49100-b7e7-11eb-9743-ecf373ba097a.png)
+
+![hotelmapsatellite](https://user-images.githubusercontent.com/75280556/118706389-4f423700-b7e7-11eb-809b-1985ff18ff4a.png)
+
+
